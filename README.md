@@ -17,10 +17,10 @@ Please visit [the official forum](http://www.paulscode.com/forum/index.php) for 
 |----------------|-----------------------------------|--------------------------------------------|
 | Mupen64Plus-AE | [![Build Status][Build]][Actions] | [![Emulator][Download]][mupen64plus-ae]  |
 
-[Actions]: https://github.com/mupen64plus-ae/mupen64plus-ae/actions/workflows/build.yml
-[Build]: https://github.com/mupen64plus-ae/mupen64plus-ae/actions/workflows/build.yml/badge.svg
+[Actions]: https://github.com/Jordem/mupen64plus-ae/actions/workflows/build.yml
+[Build]: https://github.com/Jordem/mupen64plus-ae/actions/workflows/build.yml/badge.svg
 [Download]: https://img.shields.io/badge/Download-blue
-[mupen64plus-ae]: https://github.com/mupen64plus-ae/mupen64plus-ae/releases/download/Pre-release/mupen64plus-ae-master.zip
+[mupen64plus-ae]: https://github.com/Jordem/mupen64plus-ae/releases/download/Pre-release/mupen64plus-ae-master.zip
 
 ## Build Instructions
 
