@@ -790,7 +790,13 @@ public class GameActivity extends AppCompatActivity implements PromptConfirmList
             Log.i(TAG, "User selected: " + menuItem.getTitle().toString());
         }
 
-        if (menuItem.getItemId() ==  R.id.menuItem_exit) {
+        if (menuItem.getItemId() == R.id.menuItem_resume) {
+            if( mDrawerLayout.isDrawerOpen( GravityCompat.START ) )
+            {
+                mDrawerLayout.closeDrawer( GravityCompat.START );
+                mOverlay.requestFocus();
+            }
+        } else if (menuItem.getItemId() ==  R.id.menuItem_exit) {
             mCoreFragment.exit();
         } else if (menuItem.getItemId() ==  R.id.menuItem_toggle_speed) {
             mCoreFragment.toggleSpeed();
